@@ -6,9 +6,9 @@ import {connect} from 'react-redux';
 import PropTypes from 'prop-types';
 // Local Imports
 import ContentCard from './ContentCard';
-import OverlayButton from 'js/components/Global/OverlayButton';
-import {addSuperpower} from 'js/redux/actions/superpowers';
-import theme from 'platonia_client/styles/theme';
+import OverlayButton from '../../../Global/OverlayButton';
+import {addSuperpower} from '../../../../redux/actions/superpowers';
+import theme from '../../../../../styles/theme';
 
 /*
 State Variables:
