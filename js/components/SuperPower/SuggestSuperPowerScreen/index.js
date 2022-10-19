@@ -8,12 +8,12 @@ import {
     goBackToRoot,
     goToLearnScreen,
     goToReviewSuperpowerScreen,
-} from 'js/navigation/goToActions';
-import {fetchSuperpowerSuggestions} from 'js/client/superpower';
-import superpowersData from 'platonia_client/dummyAPI/superpowersData';
-import NavBtn from 'js/components/Global/NavigationBtn';
-import BigRedButton from 'js/components/Global/BigRedButton';
-import theme from 'platonia_client/styles/theme';
+} from '../../../navigation/gotoactions';
+import {fetchSuperpowerSuggestions} from '../../../client/superpower';
+import superpowersData from '../../../../dummyAPI/superpowersData';
+import NavBtn from '../../components/Global/NavigationBtn';
+import BigRedButton from '../../components/Global/BigRedButton';
+import theme from '../../../../styles/theme';
 
 /*
 State Variable:
