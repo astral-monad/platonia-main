@@ -16,8 +16,8 @@ import BigRedButton from 'js/components/Global/BigRedButton';
 import SmallRedButton from 'js/components/Global/SmallRedButton';
 import SpecialTextInput from 'js/components/Global/SpecialTextInput';
 import SpecialTagInput from 'js/components/Global/SpecialTagInput';
-import {goToPrevScreen} from 'js/navigation/goToActions';
-import {showOverlay} from 'js/navigation/index';
+import {goToPrevScreen} from 'js/navigation/goToActions.js';
+import {showOverlay} from 'js/navigation/index.js';
 import theme from 'platonia_client/styles/theme';
 import {updateSuperpower, removeSuperpower} from 'js/redux/actions/superpowers';
 
