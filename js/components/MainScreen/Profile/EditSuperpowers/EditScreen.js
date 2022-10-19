@@ -19,7 +19,7 @@ import SpecialTagInput from '../../../Global/SpecialTagInput';
 import {goToPrevScreen} from '../../../../navigation/gotoactions';
 import {showOverlay} from '../../../../navigation/index';
 import theme from '../../../../../styles/theme';
-import {updateSuperpower, removeSuperpower} from 'js/redux/actions/superpowers';
+import {updateSuperpower, removeSuperpower} from '../../../../redux/actions/superpowers';
 
 // FIXME: Backend is not coordinating with redux in updating the superpowers. IDs don't match
 const EditScreen = props => {
