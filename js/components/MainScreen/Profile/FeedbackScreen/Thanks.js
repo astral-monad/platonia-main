@@ -1,9 +1,9 @@
 import React from 'react';
 import {View, Text, SafeAreaView, StyleSheet} from 'react-native';
 // Local Imports
-import NavBtn from 'js/components/Global/NavigationBtn';
-import {goBackToRoot} from 'js/navigation/goToActions.js';
-import theme from 'platonia_client/styles/theme';
+import NavBtn from '../../../Global/NavigationBtn';
+import {goBackToRoot} from '../../../../gotoactions';
+import theme from '../../../../../styles/theme';
 
 const Thanks = props => (
     <SafeAreaView style={styles.container}>
