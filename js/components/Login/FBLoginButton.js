@@ -3,7 +3,7 @@ import {StyleSheet, TouchableOpacity, Text} from 'react-native';
 import {LoginManager} from 'react-native-fbsdk';
 import PropTypes from 'prop-types';
 // Local Imports
-import theme from 'platonia_client/styles/theme';
+import theme from '../../../styles/theme';
 
 const FBLoginButton = props => {
     /* Refer to react-native-fbsdk docs for help */
