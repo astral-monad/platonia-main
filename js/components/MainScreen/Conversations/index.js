@@ -4,8 +4,8 @@ import Icon from 'react-native-vector-icons/FontAwesome5';
 import {Navigation} from 'react-native-navigation';
 // Local Imports
 import UserConversationCard from './UserConversationCard';
-import SearchBar from 'js/components/Global/SearchBar';
-import {goToUserChat} from '../../../navigation/goToActions';
+import SearchBar from '../../Global/SearchBar';
+import {goToUserChat} from '../../../navigation/gotoactions';
 import {connect} from 'react-redux';
 
 import {fetchConversations} from '../../../redux/actions/conversations';
