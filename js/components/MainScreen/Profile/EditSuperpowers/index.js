@@ -10,7 +10,7 @@ import {
 import {connect} from 'react-redux';
 import Icon from 'react-native-vector-icons/FontAwesome5';
 // Local Imports
-import NavBtn from '../../Global/NavigationBtn';
+import NavBtn from '../../../Global/NavigationBtn';
 import {
     goToPrevScreen,
     goToEditScreen,
