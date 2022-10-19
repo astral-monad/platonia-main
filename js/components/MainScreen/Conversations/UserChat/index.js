@@ -20,8 +20,8 @@ import {
     Composer,
 } from 'react-native-gifted-chat';
 // Local Imports
-import NavBtn from 'js/components/Global/NavigationBtn';
-import {goToPrevScreen} from 'js/navigation/goToActions';
+import NavBtn from '../../../Global/NavigationBtn';
+import {goToPrevScreen} from '../../../../navigation/gotoactions';
 
 // Refer to react-native-gifted-chat docs for help
 
