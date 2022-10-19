@@ -12,8 +12,8 @@ import * as Animatable from 'react-native-animatable';
 import {Navigation} from 'react-native-navigation';
 // Local imports
 import SkillCard from './SkillCard';
-import {showOverlay} from 'js/navigation';
-import theme from 'platonia_client/styles/theme';
+import {showOverlay} from '../../../../../../navigation/index';
+import theme from '../../../../../../../styles/theme';
 import OverlayButton from '../../../../../Global/OverlayButton';
 
 import {sendRequest} from '../../../../../../redux/actions/connections';
