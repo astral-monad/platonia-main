@@ -10,7 +10,7 @@ import {
     goToEmailScreen,
     goToWelcomeScreen,
     goToMainScreen,
-} from 'js/navigation/goToActions';
+} from 'js/navigation/gotoactions';
 import FBLoginButton from './FBLoginButton';
 import AppleSignInButton from './AppleSignInButton';
 import SwiperCard, {dot, activeDot} from './SwiperCard';
