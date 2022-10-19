@@ -12,7 +12,7 @@ import {
 import PropTypes from 'prop-types';
 import Icon from 'react-native-vector-icons/FontAwesome5';
 // Local Imports
-import BackBtn from '../../../Global/NavigationBtn';
+import NavigationBtn from '../../../Global/NavigationBtn';
 import {goToPrevScreen} from '../../../../navigation/gotoactions';
 import SpecialTextInput from '../../../Global/SpecialTextInput';
 import BigRedButton from '../../Global/BigRedButton';
