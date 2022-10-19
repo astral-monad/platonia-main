@@ -2,7 +2,7 @@ import React from 'react';
 import {View, Text, TextInput, StyleSheet} from 'react-native';
 import PropTypes from 'prop-types';
 // Local Imports
-import theme from 'platonia_client/styles/theme';
+import theme from '../../../styles/theme';
 
 const SpecialTextInput = props => (
     <View style={[styles.container, props.containerStyle]}>
