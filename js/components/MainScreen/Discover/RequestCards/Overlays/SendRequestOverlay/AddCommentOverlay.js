@@ -11,7 +11,7 @@ import {Navigation} from 'react-native-navigation';
 import PropTypes from 'prop-types';
 // Local imports
 import SkillCard from './SkillCard';
-import {showOverlay} from 'js/navigation';
+import {showOverlay} from 'js/navigation/index';
 import theme from 'platonia_client/styles/theme';
 
 const AddCommentOverlay = props => {
