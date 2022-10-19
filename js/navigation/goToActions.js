@@ -4,7 +4,7 @@ import {
     goBackToRoot as Root,
     goToMainScreen as MainScreen,
     goToScreen,
-} from './index';
+} from './index.js';
 
 export const goBackToRoot = componentId => Root(componentId);
 
