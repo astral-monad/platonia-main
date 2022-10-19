@@ -12,7 +12,7 @@ import Icon from 'react-native-vector-icons/FontAwesome5';
 import {showOverlay} from '../../../navigation';
 
 // Local Imports
-import theme from 'platonia_client/styles/theme';
+import theme from '../../../../styles/theme';
 import {Navigation} from 'react-native-navigation';
 import {fetchedSearchedRecommendations} from '../../../client/recommendations';
 
