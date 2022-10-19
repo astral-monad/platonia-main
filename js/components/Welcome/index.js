@@ -1,9 +1,9 @@
 import React from 'react';
 import {View, SafeAreaView, Text, Dimensions, StyleSheet} from 'react-native';
 // Local Imports
-import {goToAddSuperpowers} from 'js/navigation/goToActions';
-import BigRedButton from 'js/components/Global/BigRedButton';
-import theme from 'platonia_client/styles/theme';
+import {goToAddSuperpowers} from '../../navigation/goToActions';
+import BigRedButton from '../Global/BigRedButton';
+import theme from '../../../styles/theme';
 
 const Welcome = props => {
     return (
