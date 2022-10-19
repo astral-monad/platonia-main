@@ -17,7 +17,7 @@ import SwiperCard, {dot, activeDot} from './SwiperCard';
 import PlatoniaLogo from './PlatoniaLogo';
 import NavBtn from '../Global/NavigationBtn';
 import BigRedButton from '../Global/BigRedButton';
-import theme from '..../styles/theme.js';
+import theme from '../../../styles/theme.js';
 
 const LoginScreen = props => {
     const onLoginFinished = (error, result) => {
