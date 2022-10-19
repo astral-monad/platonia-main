@@ -17,11 +17,11 @@ import {
     goToWelcomeScreen,
     goToMainScreen,
     goToSignUpScreen,
-} from 'js/navigation/goToActions';
-import theme from 'platonia_client/styles/theme';
-import SpecialTextInput from 'js/components/Global/SpecialTextInput';
-import SmallRedButton from 'js/components/Global/SmallRedButton';
-import NavBtn from 'js/components/Global/NavigationBtn';
+} from '../../../navigation/goToActions';
+import theme from '../../../../styles/theme';
+import SpecialTextInput from '../../Global/SpecialTextInput';
+import SmallRedButton from '../../Global/SmallRedButton';
+import NavBtn from '../../Global/NavigationBtn';
 import {loginViaEmail} from '../../../redux/actions/user';
 import AnimatedBox from './AnimatedBox';
 
