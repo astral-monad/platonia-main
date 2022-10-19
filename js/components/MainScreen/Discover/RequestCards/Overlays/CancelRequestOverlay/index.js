@@ -5,8 +5,8 @@ import {Navigation} from 'react-native-navigation';
 import PropTypes from 'prop-types';
 // Local imports
 import CancelSkillCard from './CancelSkillCard';
-import theme from 'platonia_client/styles/theme';
-import OverlayButton from 'js/components/Global/OverlayButton';
+import theme from '../../../../../../../styles/theme';
+import OverlayButton from '../../../../../Global/OverlayButton';
 import {connect} from 'react-redux';
 import {getUser} from '../../../../../../redux/selectors';
 import {declineRequest} from '../../../../../../redux/actions/connections';
