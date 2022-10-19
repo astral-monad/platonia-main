@@ -10,14 +10,14 @@ import {
 import {connect} from 'react-redux';
 import Icon from 'react-native-vector-icons/FontAwesome5';
 // Local Imports
-import NavBtn from 'js/components/Global/NavigationBtn';
+import NavBtn from '../../Global/NavigationBtn';
 import {
     goToPrevScreen,
     goToEditScreen,
     goToAddSuperpowersFromProfile,
-} from 'js/navigation/goToActions';
+} from '../../../navigation/goToActions';
 import ActionButton from 'react-native-action-button';
-import theme from 'platonia_client/styles/theme';
+import theme from '../../../../styles/theme';
 
 import {getSuperpowers} from '../../../../redux/actions/superpowers';
 
