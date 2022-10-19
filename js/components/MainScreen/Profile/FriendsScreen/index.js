@@ -8,11 +8,11 @@ import {
 } from 'react-native';
 import Contacts from 'react-native-contacts';
 // Local Imports
-import SearchBar from 'js/components/Global/SearchBar';
-import BackBtn from 'js/components/Global/NavigationBtn';
-import {goToPrevScreen} from 'js/navigation/goToActions';
+import SearchBar from '../../../Global/SearchBar';
+import BackBtn from '../../../Global/NavigationBtn';
+import {goToPrevScreen} from '../../../../navigation/goToActions';
 import ContactCard from './ContactCard';
-import theme from 'platonia_client/styles/theme';
+import theme from '../../../../../styles/theme';
 
 const FriendsScreen = props => {
     const [contacts, setContacts] = useState(null);
