@@ -2,7 +2,7 @@ import React from 'react';
 import {View, Text, SafeAreaView, StyleSheet} from 'react-native';
 // Local Imports
 import NavBtn from 'js/components/Global/NavigationBtn';
-import {goBackToRoot} from 'js/navigation/goToActions';
+import {goBackToRoot} from 'js/navigation/goToActions.js';
 import theme from 'platonia_client/styles/theme';
 
 const Thanks = props => (
