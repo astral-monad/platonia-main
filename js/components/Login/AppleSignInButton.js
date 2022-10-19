@@ -10,7 +10,7 @@ import theme from '../../../styles/theme';
 
 import {loginViaApple} from '../../redux/actions/user';
 
-import {goToWelcomeScreen, goToMainScreen} from '../../navigation/goToActions';
+import {goToWelcomeScreen, goToMainScreen} from '../../navigation/gotoactions';
 
 const AppleSignIn = props => {
     const onLoginFinished = token => {
