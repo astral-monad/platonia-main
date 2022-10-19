@@ -15,7 +15,7 @@ import Icon from 'react-native-vector-icons/FontAwesome5';
 import NavigationBtn from '../../../Global/NavigationBtn';
 import {goToPrevScreen} from '../../../../navigation/gotoactions';
 import SpecialTextInput from '../../../Global/SpecialTextInput';
-import BigRedButton from '../../Global/BigRedButton';
+import BigRedButton from '../../../Global/BigRedButton';
 import theme from '../../../../../styles/theme';
 
 import {updateProfile} from '../../../../redux/actions/user';
