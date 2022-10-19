@@ -3,8 +3,8 @@ import {View, Text, TouchableOpacity, StyleSheet} from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome5';
 import PropTypes from 'prop-types';
 // Local Imports
-import theme from 'platonia_client/styles/theme';
-import {showOverlay} from 'js/navigation';
+import theme from '../../../../../styles/theme';
+import {showOverlay} from '../../../../navigation';
 
 const ReceiveRequestCard = props => {
     const handleOnRequest = () => {
