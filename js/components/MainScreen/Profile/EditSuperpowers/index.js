@@ -17,7 +17,7 @@ import {
     goToAddSuperpowersFromProfile,
 } from '../../../navigation/goToActions';
 import ActionButton from 'react-native-action-button';
-import theme from '../../../../styles/theme';
+import theme from '../../../../../styles/theme';
 
 import {getSuperpowers} from '../../../../redux/actions/superpowers';
 
