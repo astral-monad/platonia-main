@@ -10,7 +10,7 @@ import Contacts from 'react-native-contacts';
 // Local Imports
 import SearchBar from '../../../Global/SearchBar';
 import BackBtn from '../../../Global/NavigationBtn';
-import {goToPrevScreen} from '../../../../navigation/goToActions';
+import {goToPrevScreen} from '../../../../navigation/gotoactions';
 import ContactCard from './ContactCard';
 import theme from '../../../../../styles/theme';
 
