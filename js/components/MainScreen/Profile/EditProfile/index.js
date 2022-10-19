@@ -12,11 +12,11 @@ import {
 import PropTypes from 'prop-types';
 import Icon from 'react-native-vector-icons/FontAwesome5';
 // Local Imports
-import BackBtn from 'js/components/Global/NavigationBtn';
-import {goToPrevScreen} from 'js/navigation/goToActions';
-import SpecialTextInput from 'js/components/Global/SpecialTextInput';
-import BigRedButton from 'js/components/Global/BigRedButton';
-import theme from 'platonia_client/styles/theme';
+import BackBtn from '../../../Global/NavigationBtn';
+import {goToPrevScreen} from '../../../../navigation/goToActions';
+import SpecialTextInput from '../../../Global/SpecialTextInput';
+import BigRedButton from '../../Global/BigRedButton';
+import theme from '../../../../../styles/theme';
 
 import {updateProfile} from '../../../../redux/actions/user';
 
