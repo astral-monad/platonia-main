@@ -3,7 +3,7 @@ import {View, Text, StyleSheet} from 'react-native';
 import PropTypes from 'prop-types';
 // Local Imports
 import TagInput from './TagInput';
-import theme from 'platonia_client/styles/theme';
+import theme from '../../../styles/theme';
 
 const SpecialTagInput = props => (
     <View style={[styles.container, props.containerStyle]}>
