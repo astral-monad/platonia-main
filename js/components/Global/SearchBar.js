@@ -2,7 +2,7 @@ import React from 'react';
 import {View, StyleSheet, TouchableWithoutFeedback} from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome5';
 // Local Imports
-import theme from 'platonia_client/styles/theme';
+import theme from '../../../styles/theme';
 
 import {showOverlay} from '../../navigation';
 
