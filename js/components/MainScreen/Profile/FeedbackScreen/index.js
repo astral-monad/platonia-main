@@ -13,7 +13,7 @@ import PropTypes from 'prop-types';
 // Local Imports
 import NavBtn from '../../../Global/NavigationBtn';
 import {goToThanksScreen, goToPrevScreen} from '../../../../navigation/gotoactions';
-import theme from '../../../../../stlyes/theme';
+import theme from '../../../../../styles/theme';
 import SmallRedButton from '../../../Global/SmallRedButton';
 
 const FeedbackScreen = props => {
