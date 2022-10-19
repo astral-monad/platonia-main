@@ -5,8 +5,8 @@ import {Navigation} from 'react-native-navigation';
 import PropTypes from 'prop-types';
 // Local Imports
 import ContentCard from './ContentCard';
-import theme from 'platonia_client/styles/theme';
-import OverlayButton from 'js/components/Global/OverlayButton';
+import theme from '../../../../../../styles/theme';
+import OverlayButton from '../../../../Global/OverlayButton';
 
 const DeleteSuperpowerOverlay = props => {
     const animationDuration = 500;
