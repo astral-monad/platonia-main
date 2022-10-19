@@ -21,7 +21,7 @@ import NavBtn from 'js/components/Global/NavigationBtn';
 import SpecialTextInput from 'js/components/Global/SpecialTextInput';
 import SmallRedButton from 'js/components/Global/SmallRedButton';
 import AnimatedBox from './AnimatedBox';
-import theme from 'platonia_client/styles/theme';
+import theme from '../../../../styles/theme';
 import {signupViaEmail} from '../../../redux/actions/user';
 
 const SignUp = props => {
