@@ -16,7 +16,7 @@ import {
     goToPrevScreen,
     goToWelcomeScreen,
     goToMainScreen,
-} from 'js/navigation/goToActions';
+} from 'js/navigation/goToActions.js';
 import NavBtn from 'js/components/Global/NavigationBtn';
 import SpecialTextInput from 'js/components/Global/SpecialTextInput';
 import SmallRedButton from 'js/components/Global/SmallRedButton';
