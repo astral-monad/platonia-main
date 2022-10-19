@@ -2,7 +2,7 @@ import React from 'react';
 import {View, Text, SafeAreaView, StyleSheet} from 'react-native';
 // Local Imports
 import NavBtn from '../../../Global/NavigationBtn';
-import {goBackToRoot} from '../../../../gotoactions';
+import {goBackToRoot} from '../../../../navigation/gotoactions';
 import theme from '../../../../../styles/theme';
 
 const Thanks = props => (
