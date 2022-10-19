@@ -9,7 +9,7 @@ import {loginViaFB} from '../../redux/actions/user';
 import {
     goToEmailScreen,
     goToWelcomeScreen,
-    goToMainScreen,
+    goToMainScreen
 } from 'js/navigation/goToActions';
 import FBLoginButton from './FBLoginButton';
 import AppleSignInButton from './AppleSignInButton';
