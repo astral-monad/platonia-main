@@ -2,7 +2,7 @@ import React from 'react';
 import {Text, TouchableOpacity, Linking, StyleSheet} from 'react-native';
 import PropTypes from 'prop-types';
 // Local Imports
-import theme from 'platonia_client/styles/theme';
+import theme from '../../../../../styles/theme';
 
 const ContactCard = props => {
     const defaultMessage = 'Check out this cool app called Platonia';
