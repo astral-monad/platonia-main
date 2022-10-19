@@ -17,7 +17,7 @@ import SmallRedButton from '../../../Global/SmallRedButton';
 import SpecialTextInput from '../../../Global/SpecialTextInput';
 import SpecialTagInput from '../../../Global/SpecialTagInput';
 import {goToPrevScreen} from '../../../../navigation/gotoactions';
-import {showOverlay} from '../../../../index.js';
+import {showOverlay} from '../../../../navigation/index';
 import theme from '../../../../../styles/theme';
 import {updateSuperpower, removeSuperpower} from 'js/redux/actions/superpowers';
 
