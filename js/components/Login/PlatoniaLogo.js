@@ -1,7 +1,7 @@
 import React from 'react';
 import {StyleSheet, Text} from 'react-native';
 // Local Imports
-import theme from 'platonia_client/styles/theme';
+import theme from '../../../styles/theme';
 
 const PlatoniaLogo = () => {
     return <Text style={styles.platoniaLogo}>Platonia</Text>;
