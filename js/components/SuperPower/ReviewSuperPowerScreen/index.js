@@ -16,7 +16,7 @@ import {
     goToSuggestSuperpowerScreen,
     goToAddSuperpowers,
     goToPrevScreen,
-} from '../../../navigation/goToActions';
+} from '../../../navigation/gotoactions';
 import CollapsibleSuperPower from './CollapsibleSuperPower';
 import BigRedButton from '../../Global/BigRedButton';
 import NavBtn from '../../Global/NavigationBtn';
