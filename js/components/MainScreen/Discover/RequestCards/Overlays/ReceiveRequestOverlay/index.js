@@ -15,8 +15,8 @@ import {connect} from 'react-redux';
 // Local imports
 import ReceiveRequestCard from '../../ReceiveRequestCard';
 import ExchangeRequestCard from './ExchangeRequestCard';
-import theme from 'platonia_client/styles/theme';
-import BigRedButton from 'js/components/Global/BigRedButton';
+import theme from '../../../../../../../styles/theme';
+import BigRedButton from '../../../../../Global/BigRedButton';
 import {acceptRequest} from '../../../../../../redux/actions/connections';
 import {getUser} from '../../../../../../redux/selectors';
 
