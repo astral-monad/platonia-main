@@ -6,7 +6,7 @@ import Icon from 'react-native-vector-icons/FontAwesome5';
 import {
     goToAddSuperpowerFromTagPressOverlay,
     goToInviteFriendsScreen,
-} from '../../../../../../navigation/goToActions';
+} from '../../../../../../navigation/gotoactions';
 import theme from '../../../../../../../styles/theme';
 
 const TagPressCard = props => {
