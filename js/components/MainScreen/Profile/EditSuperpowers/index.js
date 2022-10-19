@@ -15,7 +15,7 @@ import {
     goToPrevScreen,
     goToEditScreen,
     goToAddSuperpowersFromProfile,
-} from '../../../navigation/goToActions';
+} from '../../../navigation/gotoactions';
 import ActionButton from 'react-native-action-button';
 import theme from '../../../../../styles/theme';
 
