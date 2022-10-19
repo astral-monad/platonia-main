@@ -6,8 +6,8 @@ import Icon from 'react-native-vector-icons/FontAwesome5';
 import {
     goToAddSuperpowerFromTagPressOverlay,
     goToInviteFriendsScreen,
-} from 'js/navigation/goToActions';
-import theme from 'platonia_client/styles/theme';
+} from '../../../../../../navigation/goToActions';
+import theme from '../../../../../../../styles/theme';
 
 const TagPressCard = props => {
     const onPressAddSuperpower = () => {
