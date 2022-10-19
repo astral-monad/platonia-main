@@ -5,7 +5,7 @@ import {Navigation} from 'react-native-navigation';
 import PropTypes from 'prop-types';
 // Local imports
 import TagPressCard from './TagPressCard';
-import theme from 'platonia_client/styles/theme';
+import theme from '../../../../../../../styles/theme';
 
 const TagPressOverlay = props => {
     const animationDuration = 500;
