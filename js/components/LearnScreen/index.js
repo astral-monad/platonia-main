@@ -12,19 +12,19 @@ import {
 import {connect} from 'react-redux';
 import PropTypes from 'prop-types';
 // Local Imports
-import BigRedButton from 'js/components/Global/BigRedButton';
-import Tag from 'js/components/Global/Tag';
+import BigRedButton from '../Global/BigRedButton';
+import Tag from '../Global/Tag';
 import SelectableCard from './SelectableCard';
-import {goToPrevScreen, goToMainScreen} from 'js/navigation/goToActions';
+import {goToPrevScreen, goToMainScreen} from '../../navigation/gotoactions';
 import {
     fetchSkillSuggestions,
     fetchSkillsFollowed,
 } from '../../redux/actions/skills';
-import {followSkills} from 'js/redux/actions/skills';
-import skillsData from 'platonia_client/dummyAPI/skillsData';
-import NavBtn from 'js/components/Global/NavigationBtn';
-import SpecialTagInput from 'js/components/Global/SpecialTagInput';
-import theme from 'platonia_client/styles/theme';
+import {followSkills} from '../../redux/actions/skills';
+import skillsData from '../../../dummyAPI/skillsData';
+import NavBtn from '../Global/NavigationBtn';
+import SpecialTagInput from '../Global/SpecialTagInput';
+import theme from '../../../styles/theme';
 
 class LearnScreen extends Component {
     /*
