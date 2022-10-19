@@ -10,7 +10,7 @@ import {
     goToEmailScreen,
     goToWelcomeScreen,
     goToMainScreen,
-} from 'js/navigation/gotoactions.js';
+} from 'platonia-main/js/navigation/gotoactions.js';
 import FBLoginButton from './FBLoginButton';
 import AppleSignInButton from './AppleSignInButton';
 import SwiperCard, {dot, activeDot} from './SwiperCard';
