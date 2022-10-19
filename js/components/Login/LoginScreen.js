@@ -9,8 +9,8 @@ import {loginViaFB} from '../../redux/actions/user';
 import {
     goToEmailScreen,
     goToWelcomeScreen,
-    goToMainScreen
-} from 'navigation/goToActions';
+    goToMainScreen,
+} from 'js/navigation/goToActions';
 import FBLoginButton from './FBLoginButton';
 import AppleSignInButton from './AppleSignInButton';
 import SwiperCard, {dot, activeDot} from './SwiperCard';
