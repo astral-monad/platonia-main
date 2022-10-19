@@ -11,10 +11,10 @@ import {
 } from 'react-native';
 import PropTypes from 'prop-types';
 // Local Imports
-import NavBtn from 'js/components/Global/NavigationBtn';
-import {goToThanksScreen, goToPrevScreen} from 'js/navigation/goToActions';
-import theme from 'platonia_client/styles/theme';
-import SmallRedButton from 'js/components/Global/SmallRedButton';
+import NavBtn from '../../../Global/NavigationBtn';
+import {goToThanksScreen, goToPrevScreen} from '../../../../navigation/goToActions';
+import theme from '../../../../../stlyes/theme';
+import SmallRedButton from '../../../Global/SmallRedButton';
 
 const FeedbackScreen = props => {
     const [text, setText] = useState('');
