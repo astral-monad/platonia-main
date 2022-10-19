@@ -3,7 +3,7 @@ import {Text, StyleSheet, Dimensions} from 'react-native';
 import * as Animatable from 'react-native-animatable';
 import PropTypes from 'prop-types';
 // Local Imports
-import theme from 'platonia_client/styles/theme';
+import theme from '../../../../styles/theme';
 
 const AnimatedBox = props => (
     <Animatable.View
