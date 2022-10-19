@@ -11,7 +11,7 @@ import {
 import Icon from 'react-native-vector-icons/FontAwesome5';
 import {Navigation} from 'react-native-navigation';
 // Local Imports
-import UserProfileCard from 'js/components/Global/UserProfileCard';
+import UserProfileCard from '../../Global/UserProfileCard';
 import MenuButton from './MenuButton';
 import {logout} from '../../../redux/actions/user';
 import {
@@ -21,8 +21,8 @@ import {
     goToLearnScreenFromProfile,
     goToInviteFriendsScreen,
     goToFeedbackScreen,
-} from 'js/navigation/goToActions';
-import theme from 'platonia_client/styles/theme';
+} from '../../../navigation/goToActions';
+import theme from '../../../../styles/theme';
 
 const Profile = props => {
     useEffect(() => {
