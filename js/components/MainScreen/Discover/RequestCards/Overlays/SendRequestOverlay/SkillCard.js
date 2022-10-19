@@ -3,7 +3,7 @@ import {View, Text, StyleSheet} from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome5';
 import PropTypes from 'prop-types';
 // Local Imports
-import theme from 'platonia_client/styles/theme';
+import theme from '../../../../../../../styles/theme';
 
 const SkillCard = props => (
     <View style={[styles.container, props.containerStyle]}>
