@@ -2,8 +2,8 @@ import React, {Component} from 'react';
 import {View, StyleSheet, TextInput} from 'react-native';
 import PropTypes from 'prop-types';
 // Local Imports
-import theme from 'platonia_client/styles/theme';
-import Tag from 'js/components/Global/Tag';
+import theme from '../../../styles/theme';
+import Tag from '../Global/Tag';
 
 /* 
 Note: For some reason if the enclosing View of this component 
