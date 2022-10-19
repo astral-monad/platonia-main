@@ -11,14 +11,14 @@ import {
 import PropTypes from 'prop-types';
 import {connect} from 'react-redux';
 // Local Imports
-import NavBtn from 'js/components/Global/NavigationBtn';
-import BigRedButton from 'js/components/Global/BigRedButton';
-import SmallRedButton from 'js/components/Global/SmallRedButton';
-import SpecialTextInput from 'js/components/Global/SpecialTextInput';
-import SpecialTagInput from 'js/components/Global/SpecialTagInput';
-import {goToPrevScreen} from 'js/navigation/goToActions.js';
-import {showOverlay} from 'js/navigation/index.js';
-import theme from 'platonia_client/styles/theme';
+import NavBtn from '../../../Global/NavigationBtn';
+import BigRedButton from '../../../Global/BigRedButton';
+import SmallRedButton from '../../../Global/SmallRedButton';
+import SpecialTextInput from '../../../Global/SpecialTextInput';
+import SpecialTagInput from '../../../Global/SpecialTagInput';
+import {goToPrevScreen} from '../../../../navigation/gotoactions';
+import {showOverlay} from '../../../../index.js';
+import theme from '../../../../../styles/theme';
 import {updateSuperpower, removeSuperpower} from 'js/redux/actions/superpowers';
 
 // FIXME: Backend is not coordinating with redux in updating the superpowers. IDs don't match
