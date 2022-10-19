@@ -6,7 +6,7 @@ import appleAuth, {
     AppleButton,
 } from '@invertase/react-native-apple-authentication';
 
-import theme from 'platonia_client/styles/theme';
+import theme from '../../../styles/theme';
 
 import {loginViaApple} from '../../redux/actions/user';
 
