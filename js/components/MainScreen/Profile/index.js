@@ -21,7 +21,7 @@ import {
     goToLearnScreenFromProfile,
     goToInviteFriendsScreen,
     goToFeedbackScreen,
-} from '../../../navigation/goToActions';
+} from '../../../navigation/gotoactions';
 import theme from '../../../../styles/theme';
 
 const Profile = props => {
