@@ -13,11 +13,11 @@ import Icon from 'react-native-vector-icons/FontAwesome5';
 import {connect} from 'react-redux';
 
 // Local Imports
-import Tag from 'js/components/Global/Tag';
+import Tag from '../../../Global/Tag';
 import ProfileCollapsibleCard from './ProfileCollapsibleCard';
-import UserProfileCard from 'js/components/Global/UserProfileCard';
-import {showOverlay} from 'js/navigation';
-import theme from 'platonia_client/styles/theme';
+import UserProfileCard from '../../../Global/UserProfileCard';
+import {showOverlay} from '../../../../navigation/index';
+import theme from '../../../../../styles/theme';
 import {getProfile} from '../../../../redux/actions/user';
 
 const UserProfile = props => {
