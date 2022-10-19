@@ -17,9 +17,9 @@ import {
     goToWelcomeScreen,
     goToMainScreen,
 } from '../../../navigation/gotoactions';
-import NavBtn from 'js/components/Global/NavigationBtn';
-import SpecialTextInput from 'js/components/Global/SpecialTextInput';
-import SmallRedButton from 'js/components/Global/SmallRedButton';
+import NavBtn from '../../Global/NavigationBtn';
+import SpecialTextInput from '../../Global/SpecialTextInput';
+import SmallRedButton from '../../Global/SmallRedButton';
 import AnimatedBox from './AnimatedBox';
 import theme from '../../../../styles/theme';
 import {signupViaEmail} from '../../../redux/actions/user';
