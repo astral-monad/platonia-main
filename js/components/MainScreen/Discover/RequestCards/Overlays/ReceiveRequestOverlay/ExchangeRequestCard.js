@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import {Text, TouchableOpacity, StyleSheet} from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome5';
-import theme from 'platonia_client/styles/theme';
+import theme from '../../../../../../../styles/theme';
 // Local Imports
 
 const ExchangeRequestCard = props => {
