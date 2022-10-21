@@ -20,7 +20,7 @@ import {
     goToPrevScreen,
     goToReviewSuperpowerScreen,
     goToSuggestSuperpowerScreenFromProfile,
-} from '../../../navigation/goToActions';
+} from '../../../navigation/gotoactions';
 import SampleCard from './SampleCard';
 import TagInput from '../../Global/TagInput';
 import NavBtn from '../../Global/NavigationBtn';
