@@ -3,10 +3,10 @@ import {View, Text, StyleSheet, TextInput, ScrollView} from 'react-native';
 import PropTypes from 'prop-types';
 import {connect} from 'react-redux';
 // Local imports
-import {showOverlay} from 'js/navigation';
-import {removeSuperpower} from 'js/redux/actions/superpowers';
-import Tag from 'js/components/Global/Tag';
-import theme from 'platonia_client/styles/theme';
+import {showOverlay} from '../../../navigation/index';
+import {removeSuperpower} from '../../../redux/actions/superpowers';
+import Tag from '../../Global/Tag';
+import theme from '../../../../styles/theme';
 
 const default_placeholder = 'Type or select a superpower';
 
