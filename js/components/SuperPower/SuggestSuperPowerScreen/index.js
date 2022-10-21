@@ -11,7 +11,7 @@ import {
 } from '../../../navigation/gotoactions';
 import {fetchSuperpowerSuggestions} from '../../../client/superpower';
 import superpowersData from '../../../../dummyAPI/superpowersData';
-import NavBtn from '../../components/Global/NavigationBtn';
+import NavBtn from '../../Global/NavigationBtn';
 import BigRedButton from '../../components/Global/BigRedButton';
 import theme from '../../../../styles/theme';
 
