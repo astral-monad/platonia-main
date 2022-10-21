@@ -12,7 +12,7 @@ import {
 import {fetchSuperpowerSuggestions} from '../../../client/superpower';
 import superpowersData from '../../../../dummyAPI/superpowersData';
 import NavBtn from '../../Global/NavigationBtn';
-import BigRedButton from '../../components/Global/BigRedButton';
+import BigRedButton from '../../Global/BigRedButton';
 import theme from '../../../../styles/theme';
 
 /*
