@@ -13,9 +13,9 @@ import {connect} from 'react-redux';
 // Local Imports
 import UserView from './UserView';
 import PlaceholderScreen from './PlaceholderScreen';
-import NavBtn from 'js/components/Global/NavigationBtn';
-import SearchBar from 'js/components/Global/SearchBar';
-import theme from 'platonia_client/styles/theme';
+import NavBtn from '../../Global/NavigationBtn';
+import SearchBar from '../../Global/SearchBar';
+import theme from '../../../../styles/theme';
 import {fetchRecommendations} from '../../../redux/actions/recommendations';
 
 /*
