@@ -22,10 +22,10 @@ import {
     goToSuggestSuperpowerScreenFromProfile,
 } from '../../../navigation/goToActions';
 import SampleCard from './SampleCard';
-import TagInput from 'js/components/Global/TagInput';
-import NavBtn from 'js/components/Global/NavigationBtn';
-import theme from 'platonia_client/styles/theme';
-import SmallRedButton from 'js/components/Global/SmallRedButton';
+import TagInput from '../../Global/TagInput';
+import NavBtn from '../../Global/NavigationBtn';
+import theme from '../../../../styles/theme';
+import SmallRedButton from '../../Global/SmallRedButton';
 
 const defaultPlaceholder = 'I can teach how to ';
 
