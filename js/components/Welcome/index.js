@@ -1,7 +1,7 @@
 import React from 'react';
 import {View, SafeAreaView, Text, Dimensions, StyleSheet} from 'react-native';
 // Local Imports
-import {goToAddSuperpowers} from '../../navigation/goToActions';
+import {goToAddSuperpowers} from '../../navigation/gotoactions';
 import BigRedButton from '../Global/BigRedButton';
 import theme from '../../../styles/theme';
 
