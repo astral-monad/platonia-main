@@ -17,7 +17,7 @@ import {
     goToWelcomeScreen,
     goToMainScreen,
     goToSignUpScreen,
-} from '../../../navigation/goToActions';
+} from '../../../navigation/gotoactions';
 import theme from '../../../../styles/theme';
 import SpecialTextInput from '../../Global/SpecialTextInput';
 import SmallRedButton from '../../Global/SmallRedButton';
